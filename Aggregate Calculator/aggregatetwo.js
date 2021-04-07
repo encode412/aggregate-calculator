@@ -1,0 +1,1 @@
+ document.getElementById("score-display").innerHTML  = localStorage.getItem('total')

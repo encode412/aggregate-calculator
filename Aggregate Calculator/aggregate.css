@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+  
+   font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+  background-image:
+  url(https://images.unsplash.com/photo-1612550761236-e813928f7271?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+  
+
+h1 + p{
+    margin-top: 0;
+}
+h1 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+   
+}
+.description{
+    font-weight: 200;
+}
+form{
+    margin: 0, auto;
+    background-color: white; 
+    max-width: 450px;
+    margin: 40px auto;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+.form-control{
+text-align: left;
+margin-bottom: 20px;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 6px;
+   
+   
+}
+.form-control input, .form-control select, .form-control textarea
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+
+}
+button{
+    background-color: #5370f3;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #355747;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+}
+.form-control p{
+    opacity: 0.6;
+}
+.fas fa-heart{
+    color: red
+}
+label{
+    opacity: 0.6;
+  }
+
+ #post-jamb-score,
+ #jamb-score
+ {
+     font-weight: 580;
+
+  }
+  .hov:hover{
+      color: blue;
+      border: 1px solid #5794BF;
+  }
+ 
+  
